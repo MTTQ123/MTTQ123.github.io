@@ -16,8 +16,15 @@ div#menus {
 }
 
 h1#site-title {
+    color: var(--text-highlight-color)!important;
     font-family: ZhuZiAYuanJWD;
+    font-weight: 500;
     font-size: 3em !important;
+}
+#post-info #post-meta,
+#post-info #post-meta a,
+#page-header #site-subtitle{
+    color: var(--text-highlight-color)!important;
 }
 
 a.article-title,
@@ -25,7 +32,9 @@ a.blog-slider__title,
 a.categoryBar-list-link,
 h1.post-title {
     font-family: ZhuZiAYuanJWD;
+    color: var(--text-highlight-color)!important;
 }
+
 
 .iconfont {
     font-family: 'iconfont' !important;
